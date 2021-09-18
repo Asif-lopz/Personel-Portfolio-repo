@@ -85,9 +85,12 @@ body {
     font-size: 21px;
 }
 
-/* main h2 formate */
-h2 {
+/* main h2 and h2 formate */
+h1 {
   text-align: center;  
+}
+h2 {
+    text-align: center;  
 }
 /* main background img position */
 .main {
@@ -140,7 +143,7 @@ p {
     background: linear-gradient(180deg, rgba(156, 144, 231, 0) 0%, rgba(156, 144, 231, 0) 0%, rgba(156, 144, 231, 0.63) 100%);
 }
 /* projects section h2 heading and position */
-#projects .heading {
+#projects .project-tile {
     padding-left: 75px;
 
     font-family: Roboto;

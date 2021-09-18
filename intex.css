@@ -2,6 +2,10 @@
     font-family: righteous;
     src: url(font/Righteous-Regular.ttf);
 }
+@font-face {
+    font-family: Roboto;
+    src: url(font/Roboto);
+}
 body {
     padding: 0;
     margin: 0;
@@ -38,8 +42,38 @@ body {
     text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
 
 }
+#navbar ul{
+    display:flex;
+    flex-direction: row;
+    width: 375px;
+    height: 29px;
+    margin: 57px 75px 0 0;
+    float: right;
+    list-style-type: none;
 
+    font-family:robot;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 28px;
 
+    color: #000000;
+
+    border: 1px dashed rgba(230, 224, 224, 0.2);
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25), 0 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+#navbar li {
+    margin-left: 50px;
+}
+#navbar a {
+    text-decoration: none;
+    color: #000000;
+}
+#navbar a:hover {
+    color: #494848;
+    font-size: 21px;
+}
 
 
 

@@ -9,6 +9,8 @@
 body {
     padding: 0;
     margin: 0;
+    width: 1366px;
+    height: 2235px;
 }
 .page-header {
     position: fixed;
@@ -37,7 +39,7 @@ body {
     color: rgba(0, 0, 0, 0.9);
 
     mix-blend-mode: darken;
-    border: 1px solid #AFA1A1;
+    border: 1px dashed rgba(230, 224, 224, 0.2);
     box-sizing: border-box;
     text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
 
@@ -75,10 +77,17 @@ body {
     font-size: 21px;
 }
 
-
-
-
-
-.h {
-    height:1000px;
+.main h2 {
+    transform: translate(50%, 50%);
 }
+.main {
+    width: 1366px;
+    height: 544px;
+    margin-top: 116px;
+    background: url(img/halacious-Pr578ZCufII-unsplash\ 1.png);
+}
+
+
+
+
+

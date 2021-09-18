@@ -12,7 +12,7 @@ body {
     padding: 0;
     margin: 0;
     width: 1366px;
-    height: 2235px;
+    height: 2000px;
 }
 /* header box */
 .page-header {
@@ -212,6 +212,31 @@ p {
     text-shadow: 0px 4px 4px #000000;
 }
 .images {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 30px 0 0 100px;
+}
+#contact {
+    width: 1366px;
+    height: 400px;
+    padding-top: 20px;
+    background: #484848;
+}
+#contact .contact {
+    padding-left: 75px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 42px;
+
+    color: #FFFFFF;
+
+    text-shadow: 0px 4px 4px rgba(247, 244, 244, 0.767);
+}
+#contact .logos {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;

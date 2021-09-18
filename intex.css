@@ -77,8 +77,8 @@ body {
     font-size: 21px;
 }
 
-.main h2 {
-    transform: translate(50%, 50%);
+h2 {
+  text-align: center;  
 }
 .main {
     width: 1366px;
@@ -86,7 +86,38 @@ body {
     margin-top: 116px;
     background: url(img/halacious-Pr578ZCufII-unsplash\ 1.png);
 }
+.heading {
+   padding: 50px 0 0 40px;
 
+   font-family: Roboto;
+   font-style: normal;
+   font-weight: normal;
+   font-size : 20px;
+   line-height: 42px;
+   letter-spacing: 0.05em;
+   text-transform: capitalize;
+   font-feature-settings: "pnum" on, "onum" on;
+
+   color: #ffffff;
+}
+p {
+    text-align: center;
+}
+.paragraph {
+    padding: 25px 0 0 40px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: capitalize;
+    font-feature-settings: 'pnum' on, 'onum' on;
+
+    color:#ffffff;
+}
 
 
 

@@ -144,7 +144,7 @@ p {
 }
 /* projects section h2 heading and position */
 #projects .project-tile {
-    padding-left: 75px;
+    padding-left: 65px;
 
     font-family: Roboto;
     font-style: normal;
@@ -189,3 +189,31 @@ p {
     color: #000000;
 }
 
+#Skill {
+    width: 1366px;
+    height: 374px;
+    padding-top: 20px;
+    background-color: rgba(179, 183, 225, 0.85);
+}
+#Skill .skill{
+    padding-left: 75px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 42px;
+    letter-spacing: 0.1em;
+    text-indent: 5px;
+
+    color: #000000;
+
+    box-sizing: border-box;
+    text-shadow: 0px 4px 4px #000000;
+}
+.images {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 30px 0 0 100px;
+}

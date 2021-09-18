@@ -1,3 +1,4 @@
+/* font impoer from font folder */
 @font-face {
     font-family: righteous;
     src: url(font/Righteous-Regular.ttf);
@@ -6,12 +7,14 @@
     font-family: Roboto;
     src: url(font/Roboto);
 }
+/* choose web page hieght and width */
 body {
     padding: 0;
     margin: 0;
     width: 1366px;
     height: 2235px;
 }
+/* header box */
 .page-header {
     position: fixed;
     width: 1440px;
@@ -20,6 +23,7 @@ body {
     top: 0;
     background-color: #C4C4C4;
 }
+/* h1 heading */
 .page-header h1 {
     position: absolute;
     width: 116px;
@@ -44,6 +48,7 @@ body {
     text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
 
 }
+/* navigation bar un ordered list and position */
 #navbar ul{
     display:flex;
     flex-direction: row;
@@ -65,27 +70,34 @@ body {
     text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25), 0 4px 4px rgba(0, 0, 0, 0.25);
 
 }
+/* navigation bar li */
 #navbar li {
     margin-left: 50px;
 }
+/* navigation bar link */
 #navbar a {
     text-decoration: none;
     color: #000000;
 }
+/* navigation bar link formate */
 #navbar a:hover {
     color: #494848;
     font-size: 21px;
 }
 
+/* main h2 formate */
 h2 {
   text-align: center;  
 }
+/* main background img position */
 .main {
     width: 1366px;
     height: 544px;
     margin-top: 116px;
+
     background: url(img/halacious-Pr578ZCufII-unsplash\ 1.png);
 }
+/* main h2 formate and position */
 .heading {
    padding: 50px 0 0 40px;
 
@@ -100,9 +112,11 @@ h2 {
 
    color: #ffffff;
 }
+/* main paragraph formate */
 p {
     text-align: center;
 }
+/* main paragraph formate and position */
 .paragraph {
     padding: 25px 0 0 40px;
 
@@ -119,6 +133,56 @@ p {
     color:#ffffff;
 }
 
+/* projects section width and background color */
+#projects {
+    width: 1366px;
+    height: 640px;
+    background: linear-gradient(180deg, rgba(156, 144, 231, 0) 0%, rgba(156, 144, 231, 0) 0%, rgba(156, 144, 231, 0.63) 100%);
+}
+/* projects section h2 heading and position */
+#projects .heading {
+    padding-left: 75px;
 
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 42px;
+/* identical to box height */
 
+    letter-spacing: 0.05em;
+    text-decoration-line: underline;
+    text-transform: capitalize;
+
+    color: #000000;
+
+    text-shadow: 0px 4px 4px rgba(130, 127, 127, 0.68);
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 60px;
+}
+.container .box {
+    width: 249px;
+    height: 425px;
+    margin-top: 60px;
+
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.25), inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 36px;
+}
+.box:hover {
+    width: 250px;
+    height: 430px;
+    border: 1px solid #4d02fd;
+}
+.container .box, a {
+    text-decoration: none;
+    color: #000000;
+}
 

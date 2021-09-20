@@ -87,7 +87,7 @@ body {
 
 /* main h2 and h2 formate */
 h1 {
-  text-align: center;  
+    text-align: center;  
 }
 h2 {
     text-align: center;  
@@ -98,7 +98,7 @@ h2 {
     height: 544px;
     margin-top: 116px;
 
-    background: url(img/halacious-Pr578ZCufII-unsplash\ 1.png);
+    background-image: url(img/halacious-Pr578ZCufII-unsplash\ 1.png);
 }
 /* main h2 formate and position */
 .heading {
@@ -241,4 +241,55 @@ p {
     flex-direction: row;
     justify-content: space-evenly;
     margin: 30px 0 0 100px;
+}
+
+
+@media only screen and (max-width: 414px) {
+    body {
+        width: 414px;
+        height: 4000px;
+    }
+    .page-header {
+        position: fixed;
+        right: 0;
+        top: 0;
+        width: 414px;
+        height: 88px;
+    }
+    .page-header h1 {
+        position: absolute;
+        left: 25%;
+        font-size: 18px;
+        top: 18%;
+    }
+    #navbar ul {
+        float: none;
+        padding: 0;
+    }
+    #navbar li {
+        margin-left: 40px;
+    }
+    
+    .main {
+        width: 414px;
+        height: 500px;
+        background-image: none;
+        background-image: url(img/halacious-Pr578ZCufII-unsplash\ 1\ 1.png);
+        background-size: cover;
+        margin: 88px 0 0 0;
+    }
+    .heading {
+        font-size: 16px;
+        padding: 30px 90px 0 0;
+    }
+    .heading h1 {
+        margin: 0;
+    }
+    .paragraph {
+        padding: 15px 0 0 0;
+        width: 330px;
+        height: auto;
+
+        font-size: 12px;
+    }
 }
